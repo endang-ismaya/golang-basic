@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	staff "endangismaya.com/gotest/staff_module"
+	"endangismaya.com/gotest/exported_non_exported/staff"
 )
 
 var employees = []staff.Employee{
