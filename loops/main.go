@@ -11,7 +11,14 @@ func main() {
 	// for {
 	// do nothing here
 	// }
+	fmt.Println("for i looping")
+	forILoop()
+
+	fmt.Println("while looping")
 	whileLoop()
+
+	fmt.Println("while looping 2")
+	whileLoop2()
 }
 
 func forILoop() {
@@ -37,4 +44,12 @@ func whileLoop() {
 	}
 
 	fmt.Println("Got", i, "and broke out of loop")
+}
+
+func whileLoop2() {
+	j := 100
+	for j >= 0 {
+		fmt.Println(j)
+		j--
+	}
 }
