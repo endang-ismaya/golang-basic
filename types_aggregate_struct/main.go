@@ -1,35 +1,15 @@
 package main
 
-import "fmt"
-
-// aggregate types (array, struct)
-
-type Car struct {
-	NumberOfTires int
-	Luxury        bool
-	BucketSeats   bool
-	Make          string
-	Model         string
-	Year          int
-}
+import (
+	"endangismaya.com/gotest/types_aggregate_struct/struct1"
+	"endangismaya.com/gotest/utils"
+)
 
 func main() {
-	var myCar Car
+	utils.PrintTitle("Car Implementation")
+	struct1.CarImplementation()
 
-	myCar.NumberOfTires = 4
-	myCar.Luxury = false
-	myCar.Make = "Volkswagen"
-	myCar.Model = "Model X"
-
-	myNewCar := Car{
-		NumberOfTires: 4,
-		Luxury:        true,
-		BucketSeats:   true,
-		Make:          "Volvo",
-		Model:         "XC",
-		Year:          2019,
-	}
-
-	fmt.Println("My car is", myCar)
-	fmt.Println("My new car is", myNewCar)
+	utils.PrintTitle("Book Implementation")
+	struct1.BookImplementation()
+	struct1.EmbeddedStruct()
 }
