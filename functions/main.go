@@ -1,6 +1,7 @@
 package main
 
 import (
+	"endangismaya.com/gotest/functions/anonym"
 	"endangismaya.com/gotest/functions/func1"
 	"endangismaya.com/gotest/functions/variadic"
 	"endangismaya.com/gotest/utils"
@@ -15,4 +16,7 @@ func main() {
 
 	utils.PrintTitle("Func Variadic")
 	variadic.VariadicFuncTest()
+
+	utils.PrintTitle("Anonymous Functions")
+	anonym.AnonymTest()
 }
