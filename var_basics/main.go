@@ -10,6 +10,8 @@ func main() {
 
 	var name = "Endang"
 	fmt.Println("My name is: ", name)
+	fmt.Println(name[0]) // 69
+	fmt.Println(name[1]) // 110
 
 	// short var
 	s := "Learning Golang"

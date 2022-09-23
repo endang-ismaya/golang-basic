@@ -27,5 +27,5 @@ func CopySlicesWithoutShared() {
 	src := []int{10, 20, 30}
 	dst := make([]int, len(src))
 	nn := copy(dst, src)
-	fmt.Println(src, dst, nn) // 10 20 30] [10 20 30] 3
+	fmt.Println(src, dst, nn) // [10 20 30] [10 20 30] 3
 }
