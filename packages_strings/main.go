@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"endangismaya.com/gotest/strings/manipulate"
+	"endangismaya.com/gotest/packages_strings/manipulate"
 	"endangismaya.com/gotest/utils"
 )
 
