@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/eiannone/keyboard v0.0.0-20220611211555-0d226195f203
+	github.com/endang-ismaya/go-module-test v0.0.2
 	golang.org/x/exp v0.0.0-20220907003533-145caa8ea1d0
 )
 

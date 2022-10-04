@@ -1,5 +1,9 @@
 github.com/eiannone/keyboard v0.0.0-20220611211555-0d226195f203 h1:XBBHcIb256gUJtLmY22n99HaZTz+r2Z51xUPi01m3wg=
 github.com/eiannone/keyboard v0.0.0-20220611211555-0d226195f203/go.mod h1:E1jcSv8FaEny+OP/5k9UxZVw9YFWGj7eI4KR/iOBqCg=
+github.com/endang-ismaya/go-module-test v0.0.1 h1:j1oH3OtAbvGGoGjmbtq6CZe/JCHOQ/tCQa0MvRTKe9Q=
+github.com/endang-ismaya/go-module-test v0.0.1/go.mod h1:xIAtPYovY8iW5vlER762FUOOqtixWFugJDO0OMG7IOg=
+github.com/endang-ismaya/go-module-test v0.0.2 h1:cdJGF4xlDvalyNynxfEMTrcElIY4b6vRtopw7kphc7M=
+github.com/endang-ismaya/go-module-test v0.0.2/go.mod h1:xIAtPYovY8iW5vlER762FUOOqtixWFugJDO0OMG7IOg=
 golang.org/x/exp v0.0.0-20220907003533-145caa8ea1d0 h1:17k44ji3KFYG94XS5QEFC8pyuOlMh3IoR+vkmTZmJJs=
 golang.org/x/exp v0.0.0-20220907003533-145caa8ea1d0/go.mod h1:cyybsKvd6eL0RnXn6p/Grxp8F5bW7iYuBgsNCOHpMYE=
 golang.org/x/sys v0.0.0-20220907062415-87db552b00fd h1:AZeIEzg+8RCELJYq8w+ODLVxFgLMMigSwO/ffKPEd9U=
